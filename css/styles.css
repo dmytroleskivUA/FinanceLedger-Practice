@@ -1,0 +1,100 @@
+:root {
+    --main-text-color: #333333;
+    --second-text-color: #fff;
+    --owner-text-color: #e9e9e9;
+    --accent-color: #28a745;
+    --main-bg-color: #e5e5e5;
+    --benefits-bg-color: #f4f4f4;
+    --footer-bg-color: #333333;
+    --main-font: 'Open Sans', sans-serif;
+    --social-font: 'Font Awesome 5 Brands', serif;
+}
+
+
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ----------- HEADER ----------- */
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    /* margin-left: auto; */
+    margin-left: 50px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.nav-link {
+    color: tomato;
+    /* padding-left: 30px; */
+}
+
+.current {
+    color: blueviolet;
+}
